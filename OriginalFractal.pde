@@ -17,7 +17,7 @@ public void draw()
  }
 
  public void squares(int x, int y, int side, int Color){
-  if(side == 1) return;
+  if(side <= 2) return;
       fill(Color);
 
   rect(x,y,side,side);
